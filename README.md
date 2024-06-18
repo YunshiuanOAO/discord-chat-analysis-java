@@ -20,7 +20,7 @@ F74124723周昀軒 F74124749林子宸
 
 ### 操作流程
 
-首先先開啟discord bot ，接下來判斷使用者輸入指令，如果輸入/clawer dicord bot 就會執行爬蟲程式
+首先先開啟discord bot ，接下來判斷使用者輸入指令，如果輸入/crawler  dicord bot 就會執行爬蟲程式
 如果輸入/server discord bot 就會執行server 程式開啟伺服器並且回傳網址
 
 ![image](https://hackmd.io/_uploads/rJ10MBarC.png)
@@ -29,8 +29,8 @@ F74124723周昀軒 F74124749林子宸
 
 
 ## 組員分工
-周昀軒:slash server,clawer
-林子宸:clawer 資料可視化
+周昀軒:slash server,crawler 
+林子宸:crawler 資料可視化
 
 ## 協作
 * 在[hackmd](https://hackmd.io/@yunshiuan/ByNZ37dSC)上整理專案的想法或功能
@@ -43,9 +43,22 @@ F74124723周昀軒 F74124749林子宸
 ## demo
 測試伺服器：某高中資訊研究社discord伺服器
 
-
 ```sh
 git clone https://github.com/l-zch/discord-chat-analysis-java.git
 cd discord-chat-analysis-java
 ./gradlew run
 ```
+第一次運行會創建 config.json
+```
+{ "botToken" : "put your bot token here" }
+```
+更換 bot token 後再次運行
+```
+./gradlew run
+```
+
+在 discord 上輸入 `/crawler` ，抓取當前群組的資料
+
+<img width="603" alt="image" src="https://github.com/l-zch/discord-chat-analysis-java/assets/89698082/901e25ad-b978-45c3-93f7-4ff04a3e24d0">
+
+等待資料抓取完成，輸入 `/server` 會在本地 `http://localhost:8000/` 開啟統計數據的互動式網頁
