@@ -42,3 +42,10 @@ F74124723周昀軒 F74124749林子宸
 
 ## demo
 測試伺服器：某高中資訊研究社discord伺服器
+
+
+```sh
+git clone https://github.com/l-zch/discord-chat-analysis-java.git
+cd discord-chat-analysis-java
+./gradlew run
+```
