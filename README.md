@@ -11,10 +11,10 @@ F74124723周昀軒 F74124749林子宸
 使用工具與套件：JDA,git,Gradle,Vue,github,hackmd,discord
 
 ### 爬蟲
-[使用者輸入](https://github.com/l-zch/discord-chat-analysis-java/blob/main/app/src/main/java/app/SlashBot.java)：透過使用者在 discord 聊天室輸入，取得需要進行的操作
+[使用者輸入](https://github.com/l-zch/discord-chat-analysis-java/blob/main/app/src/main/java/app/SlashBot.java)：透過使用者在 discord 聊天室輸入，取得需要進行的操作<br/>
 [爬蟲](https://github.com/l-zch/discord-chat-analysis-java/blob/main/app/src/main/java/crawler/Crawler.java)：取得伺服器聊天室的所有訊息 json
 ### 資料可視化
-[可視化](https://github.com/l-zch/discord-stat-frontend)：使用 Vue 將所有訊息經過篩選後輸出使用者需要的資料
+[可視化](https://github.com/l-zch/discord-stat-frontend)：使用 Vue 將所有訊息經過篩選後輸出使用者需要的資料<br/>
 [伺服器](https://github.com/l-zch/discord-chat-analysis-java/blob/main/app/src/main/java/app/CustomHttpServer.java)：使用 jwebserver 將產生的檔案放進伺服器中並將網址回傳給使用者
 
 
@@ -29,7 +29,7 @@ F74124723周昀軒 F74124749林子宸
 
 
 ## 組員分工
-周昀軒:slash server,crawler 
+周昀軒:slash server,crawler <br/>
 林子宸:crawler 資料可視化
 
 ## 協作
